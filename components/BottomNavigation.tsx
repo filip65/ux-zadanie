@@ -30,7 +30,7 @@ const BottomNavigation = () => {
           />
         </Link>
       </div>
-      <Link href={`${!!order ? "/summary" : null}`}>
+      <Link href={`${!!order ? "/summary" : ""}`}>
         <div
           className={`bg-red p-5 rounded-full transform -translate-y-6 ${
             !order ? "grayscale" : ""
